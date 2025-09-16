@@ -48,7 +48,7 @@ header{
     color: var(--azul);
 
 }
-.menu a: hover{
+.menu a:hover{
     color: var(--preto);
     transition: 0.5s;
 }
