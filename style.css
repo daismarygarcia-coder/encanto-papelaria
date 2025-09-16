@@ -14,4 +14,43 @@
 body{ 
     background-color: var(--vinho);
     font-family: var(--titulo);
+    margin: 0;
+
 }
+header{
+     background-color: var(--beige);
+     display: flex;
+     justify-content: space-around;
+     padding: 10px;
+     align-items: center;
+}
+
+
+.img-logo{
+    width: 15%;
+    border-radius: 100%;
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: var(var(--azul-claro));
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--azul);
+
+}
+.menu a: hover{
+    color: var(--preto);
+    transition: 0.5s;
+}
+
+
