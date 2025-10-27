@@ -122,4 +122,33 @@ footer{
     font-size: 18px;
 }
 
+/* produtos */
+.produtos{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.produtos h2{
+    font-family: var(--titulo);
+    font-size: 40px;
+    color: var(--preto);
+    margin: 40px 0;
+}
+.lista-produtos{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.produto{
+background-color: var(--beige);
+width: 27%;
+padding: 20px;
+border-radius: 10px;
+
+}
+.produto img{
+    width: 100%;
+    border-radius: 10px;
+}
 
