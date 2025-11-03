@@ -27,10 +27,44 @@ header{
 
 
 .img-logo{
-    width: 15%;
+    width: 10%;
     border-radius: 100%;
-
 }
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 20px;
+    font-family: var(--titulo);
+    text-transform: uppercase;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--verde);
+}
+
+.menu a:hover{
+    color: var(--preto);
+    transition: 0.5s; 
+}
+
+.capa{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.capa img{
+    width: 100%;
+    height: auto;
+    display:block;
+    object-fit: cover;
+    }
 
 .menu{
     display: flex;
@@ -58,10 +92,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
- }
-.capa img{
-    width: 100%;
     height: auto;
     display: block;
     object-fit: cover;
@@ -151,4 +181,28 @@ border-radius: 10px;
     width: 100%;
     border-radius: 10px;
 }
-
+.produtos h3{
+font-family: var(--titulo);
+color: var(--azul);
+font-size: 20px;
+}
+.produtos p{
+    font-family: var(--texto);
+    color: var(--preto);
+    font-size: 18px;
+    font-style: italic;
+}
+.produto button{
+    padding: 10px 24px;
+    font-size: 16px;
+    font-family: var(--titulo);
+    background-color: var(--azul-claro);
+    color: var(--preto);
+    border: none;
+    border-radius: 12px;
+}
+.produto button:hover{
+    background-color: var(--preto);
+    transition: 0,3s;
+    cursor: pointer;
+}
