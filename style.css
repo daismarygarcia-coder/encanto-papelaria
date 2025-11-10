@@ -27,7 +27,7 @@ header{
 
 
 .img-logo{
-    width: 10%;
+    width: 30%;
     border-radius: 100%;
 }
 
@@ -104,7 +104,7 @@ header{
 }
 
 .apresentacao h2{
-    color: var(--preto);
+    color: var(--beige);
     font-size: 50px;
 
 }
@@ -161,7 +161,7 @@ footer{
 .produtos h2{
     font-family: var(--titulo);
     font-size: 40px;
-    color: var(--preto);
+    color: var(--beige);
     margin: 40px 0;
 }
 .lista-produtos{ 
