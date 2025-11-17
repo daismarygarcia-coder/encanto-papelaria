@@ -191,18 +191,11 @@ font-size: 20px;
     color: var(--preto);
     font-size: 18px;
     font-style: italic;
-}
-.produto button{
-    padding: 10px 24px;
-    font-size: 16px;
-    font-family: var(--titulo);
-    background-color: var(--azul-claro);
-    color: var(--preto);
     border: none;
     border-radius: 12px;
 }
 .produto button:hover{
-    background-color: var(--preto);
+    background-color: var(--azul-claro);
     transition: 0,3s;
     cursor: pointer;
 }
